@@ -8,6 +8,25 @@
  
 }
 
+header {
+  background-color: #1f2937;
+
+}
+
+
+.hero {
+  background-image: url(./images/hero.jpg);
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  
+
+}
+
+
 .gallery {
     background-color: white;
     padding: 50px 0;
