@@ -73,12 +73,20 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   }
 
+.quote-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+}
+
   .quote-container {
-    background-color: #E5E7EB;
+    
     display: flex;
-    padding: 100px 300px;
+    padding: 100px;
     flex-direction: column;
     gap: 10px;
+    width: 70%;
   }
 
   .quote-text {
