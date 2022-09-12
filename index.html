@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,38 @@
     <link rel="stylesheet" href="style.css">
     <title>Brew Fort Wayne</title>
 </head>
+
 <body>
 
     <header>
-
+        <div class="header-logo">
+            <a href="#hero" class="home-btn">
+                Brew Fort Wayne
+            </a>
+        </div>
+        <div class="links">
+            <a href="#breweries" class="header-link">Breweries</a>
+            <a href="#quote" class="header-link">Mission</a>
+            <a href="#sign-up" class="header-link">Sign Up</a>
+        </div>
     </header>
 
-    <section class="hero">
-        <div></div>
+    <section class="hero" id="hero">
+        <div class="sub-hero">
+            <div class="left-sub-hero">
+                <h2>Your Fort Wayne craft brewery source.</h2>
+                <p>Find out all about the incredible local craft
+                    beer scene in Fort Wayne, IN. Find out why the Fort
+                    can't be beat. Cheers!</p>
+                <button>Sign up</button>
+            </div>
+            <div class="right-sub-hero">
+                <img class="hero-img" src="./images/hero.jpg" alt="">
+            </div>
+        </div>
     </section>
-    
-    <section class="gallery">
+
+    <section class="gallery" id="breweries">
         <div class="container">
             <div class="card hvr-glow"><img src="./images/2toms-logo.jpg" class="brew-img"></div>
             <div class="card hvr-glow"><img src="./images/chapmans-logo.jpg" class="brew-img"></div>
@@ -37,23 +59,24 @@
             <div class="card hvr-glow"><img src="./images/trubble-logo.jpg" class="brew-img"></div>
         </div>
     </section>
-    
-    <section class="quote-section">
+
+    <section class="quote-section" id="quote">
         <div class="quote-container">
-        <div class="quote-text">"The <span class="quote-em">problem</span> 
-            with the world is that <span class="quote-em"> everyone is a few drinks</span> behind."</div>
-        
+            <div class="quote-text">"The <span class="quote-em">problem</span>
+                with the world is that <span class="quote-em"> everyone is a few drinks</span> behind."</div>
+
             <div class="quote-name">-Humphrey Bogart</div>
         </div>
-        </section>
-    
-    <section class="sign-up">
+    </section>
+
+    <section class="sign-up" id="sign-up">
 
     </section>
-    
+
     <footer>
         <p>Copyright &copy BrewFW - All photos used under Fair Use. Owners reserve all rights</p>
     </footer>
-    
+
 </body>
+
 </html>
