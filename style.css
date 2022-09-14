@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:ital,wght@0,400;0,700;1,100;1,700&display=swap');
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-    scroll-behavior: smooth;
- 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -26,11 +25,11 @@ header {
   font-size: 24px;
 }
 
-header > div > a:hover {
+header>div>a:hover {
   color: #800200;
 }
 
-.links{
+.links {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -41,7 +40,7 @@ header > div > a:hover {
   text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;
-  padding:.25rem;
+  padding: .25rem;
 }
 
 .header-link:hover {
@@ -60,10 +59,9 @@ header > div > a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
-.sub-hero{
+.sub-hero {
   display: flex;
   gap: 100px;
   justify-content: space-between;
@@ -71,33 +69,41 @@ header > div > a:hover {
 
 .left-sub-hero {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   background-color: #1f2937;
   margin-left: 100px;
   gap: 4px;
 }
 
-.left-sub-hero > h2 {
+.left-sub-hero>h2 {
   font-size: 48px;
   font-weight: 800;
   color: #f9f8f8;
 }
 
-.left-sub-hero > p{
+.left-sub-hero>p {
   font-size: 18px;
   color: #e5e7eb;
 }
 
-.left-sub-hero > button {
-background-color: #3882f6;
-color: #E5E7EB;
-border: none;
-width:fit-content;
-padding: .2rem .5rem;
-border-radius: .25rem;
-font-size: 18px;
-margin-top: 25px;
+.left-sub-hero>button {
+  background-color: #3882f6;
+  color: #E5E7EB;
+  border: none;
+  width: fit-content;
+  padding: .5rem 1rem;
+  border-radius: .25rem;
+  font-size: 18px;
+  margin-top: 25px;
+  box-shadow: none;
+}
 
+.left-sub-hero>button:active {
+  background-color: #005ff7;
+}
+
+.left-sub-hero>button:hover {
+  box-shadow: 0 0 5px rgba(200, 200, 200, 0.7);
 }
 
 .right-sub-hero {
@@ -109,56 +115,55 @@ margin-top: 25px;
 
 .hero-img {
   width: 40vw;
-
-
 }
 
 .gallery {
-    background-color: white;
-    padding: 75px 0;
+  background-color: white;
+  padding: 75px 0;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    gap: 2.5rem;
-    padding: 1rem;
-
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 1rem;
 }
 
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  border-radius: 10%;
 }
 
 .brew-img {
-    width: 100%;
-    border-radius: 10%;
+  width: 100%;
+  border-radius: 10%;
 }
 
 footer {
-    background-color: #1f2937;
-    color: white;
-    padding: 2rem;
-    text-align: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 2rem;
+  text-align: center;
 }
 
 .hvr-glow {
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 px rgba(0, 0, 0, 0);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow;
-    transition-property: box-shadow;
-  }
-  .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-  }
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
 
+.hvr-glow:hover,
+.hvr-glow:focus,
+.hvr-glow:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
 .quote-section {
   display: flex;
   justify-content: center;
@@ -166,26 +171,67 @@ footer {
   background-color: #E5E7EB;
 }
 
-  .quote-container {
-    
-    display: flex;
-    padding: 100px;
-    flex-direction: column;
-    gap: 10px;
-    width: 70%;
-  }
+.quote-container {
+  display: flex;
+  padding: 100px;
+  flex-direction: column;
+  gap: 10px;
+  width: 70%;
+}
 
-  .quote-text {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 100px;
-  }
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100px;
+}
 
-  .quote-em {
-    font-weight: 700;
-  }
+.quote-em {
+  font-weight: 700;
+}
 
-  .quote-name {
-    font-weight: 700;
-    align-self: flex-end;
-  }
+.quote-name {
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 75px;
+}
+
+.sub-sign-up {
+  display: flex;
+  align-content: center;
+  background-color: #3882f6;
+  padding: 2rem 4rem;
+  border-radius: 0.5rem;
+  gap: 2rem;
+}
+
+.sub-sign-up-text {
+  display: flex;
+  flex-direction: column;
+  color: #E5E7EB;
+  justify-content: center;
+}
+
+.sub-sign-up>button {
+  background-color: #3882f6;
+  color: #E5E7EB;
+  border: 1px solid white;
+  width: fit-content;
+  padding: .5rem 2.5rem;
+  border-radius: .25rem;
+  font-size: 18px;
+  box-shadow: none;
+}
+
+.sub-sign-up>button:active {
+  background-color: #005ff7;
+}
+
+.sub-sign-up>button:hover {
+  box-shadow: 0 0 5px rgba(200, 200, 200, 0.7);
+}
